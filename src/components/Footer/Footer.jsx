@@ -5,6 +5,7 @@ import shortCircles from '../../assets/icons/circlesShort.svg';
 import longCircles from '../../assets/icons/circlesLong.svg';
 import vk from '../../assets/icons/vk.svg';
 import inst from '../../assets/icons/instagram.svg';
+import NavigateButtons from '../NavigateButtons/NavigateButtons';
 
 const Footer = () => {
     return (
@@ -62,6 +63,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <NavigateButtons className={styles.navigateButtons} />
         </footer>
     );
 };

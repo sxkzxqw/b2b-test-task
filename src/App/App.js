@@ -10,7 +10,7 @@ import SuccessAttemptPage from "../pages/SuccessAttemptPage/SuccessAttemptPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/b2b-test-task'>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='*' element={<NotFoundPage />} />

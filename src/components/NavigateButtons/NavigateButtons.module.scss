@@ -1,0 +1,18 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
