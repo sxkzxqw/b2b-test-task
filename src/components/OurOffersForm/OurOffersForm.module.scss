@@ -1,0 +1,183 @@
+.section {
+    width: 1299px;
+    height: 428px;
+    background: #EACEA9;
+    border: 10px solid #D3B48B;
+    border-radius: 2px;
+    padding-top: 38px;
+    padding-left: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -280px;
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013435;
+    max-width: 561px;
+}
+
+.title_text {
+    position: relative;
+}
+
+.title_absolute {
+    position: absolute;
+    top: 55px;
+    left: 192px;
+    border-bottom: 2px solid #023E3F;
+    line-height: 34px;
+}
+
+.title_low {
+    position: absolute;
+    top: 96px;
+    left: 192px;
+}
+
+.title_low_absolute {
+    border-bottom: 2px solid #023E3F;
+    max-width: 183px;
+}
+
+.book {
+    position: absolute;
+    top: -50px;
+    right: -280px;
+}
+
+.card {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+
+.fieldset {
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.input {
+    width: 293px;
+    height: 59px;
+    outline: none;
+    border: 1px solid #928068;
+    border-radius: 15px;
+    padding-left: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #40290A;
+}
+
+.user {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.submitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #013435;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 10px;
+    height: 10px;
+}
+
+.submitText {
+    max-width: 222px;
+}
+
+.submit_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6C5436;
+}
+
+.submit_text_underline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #023E3F;
+    cursor: pointer;
+}
+
+.submit_wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.phonebtn {
+    width: 291px;
+    height: 63px;
+    border-radius: 12.0838px;
+    border: none;
+    cursor: pointer;
+    background: #023E40;
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+
+.bgPhoneCall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22px;
+    right: 62px;
+}
+
+.phoneCallText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.phoneCallMask {
+    position: absolute;
+}
+
+.submit_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 596px;
+    margin-top: 14px;
+}

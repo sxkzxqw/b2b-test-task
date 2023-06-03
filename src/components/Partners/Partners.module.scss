@@ -1,0 +1,66 @@
+.section {
+    height: 1308px;
+    background: #E5D7BB;
+    padding-top: 86px;
+    position: relative;
+}
+
+.title_wrapper {
+    display: flex;
+    max-width: 703px;
+    flex-direction: column;
+    gap: 34px;
+    margin-left: 250px;
+}
+
+.title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #221707;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #140D01;
+    max-width: 372px;
+}
+
+.house {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.item {
+    width: 164px;
+    height: 164px;
+    background: #FFF9EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.lists_wrapper {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 554px;
+    margin-left: -28px;
+    overflow: hidden;
+}

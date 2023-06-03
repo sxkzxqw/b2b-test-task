@@ -1,0 +1,161 @@
+.section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 193px;
+}
+
+.tree {
+    position: absolute;
+    right: 0;
+    top: 131px;
+    z-index: 1;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-left: 200px;
+    margin-top: 45px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+}
+
+.house1 {
+    position: relative;
+    z-index: 3;
+}
+
+.house2 {
+    position: absolute;
+    z-index: 2;
+    bottom: -10px;
+    right: -380px;
+}
+
+.title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #013435;
+    max-width: 904px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34px;
+}
+
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #273B3C;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-top: 30px;
+}
+
+.info_title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013435;
+    max-width: 330px;
+}
+
+.info_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info_item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.info_item_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3C;
+}
+
+.info_circles {
+    position: relative;
+    width: 12px;
+    height: 12.3px;
+}
+
+.info_circle_inherit {
+    width: 9.6px;
+    height: 9.6px;
+    border: 1px solid #41B07D;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.info_circle_green {
+    width: 9.6px;
+    height: 9.6px;
+    background: #41B07D;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: inherit;
+    border: 1px solid #E5D7BB;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.button_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    width: 53px;
+    background: #E5D7BB;
+    border-radius: 50%;
+}

@@ -1,0 +1,47 @@
+.section {
+    width: 1299px;
+    height: 501px;
+    background: #EACEA9;
+    border: 10px solid #D3B48B;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    position: relative;
+}
+
+.book {
+    position: absolute;
+    left: 192px;
+    top: -50px;
+}
+
+.title_wrapper {
+    max-width: 426px;
+    position: relative;
+    margin-left: 55px;
+    margin-top: 47px;
+}
+
+.title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013435;
+}
+
+.title_absolute {
+    text-transform: uppercase;
+    right: 30px;
+    line-height: 36px;
+    border-bottom: 2px solid #013435;
+}
+
+.form {
+    position: absolute;
+    z-index: 3;
+    top: 69px;
+    right: 43px;
+}

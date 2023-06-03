@@ -1,0 +1,129 @@
+.section {
+    width: 100%;
+    height: 922px;
+    position: relative;
+    padding-top: 91px;
+}
+
+.gori {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.kust {
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    z-index: 3;
+}
+
+.right {
+    max-width: 494px;
+    margin-left: 1097px;
+}
+
+.title {
+    max-width: 392px;
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #013435;
+}
+
+.strong {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #273B3C;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #273B3C;
+    margin-bottom: 20px;
+    margin-top: 44px;
+}
+
+.underline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #023E3F;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.55);
+    border-bottom: 2px solid #013435;
+    max-width: 248px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.podpis_wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 347px;
+    top: 621px;
+    left: 345px;
+}
+
+.galki {
+    position: absolute;
+    top: 367px;
+    left: 431px;
+}
+
+.podpis {
+    width: 195px;
+    position: absolute;
+    right: 30px;
+    bottom: -110px;
+}
+
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #273B3B;
+}
+
+.dolzhnost {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3B;
+    max-width: 289px;
+}
+
+.border {
+    width: 47px;
+    height: 1px;
+    background: black;
+}
+
+.name_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chel {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}

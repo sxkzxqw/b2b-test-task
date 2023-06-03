@@ -1,0 +1,204 @@
+.section {
+    width: 100%;
+    height: 860px;
+    background-image: url('../../assets/images/hitec/carsHouse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 60px;
+    padding-left: 250px;
+    padding-right: 250px;
+    position: relative;
+    padding-top: 60px;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013435;
+    max-width: 284px;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 229px 240px 240px;
+    grid-template-rows: 153px 142.5px 142.5px 176px;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". item1 item1"
+        "item2 item3 item5"
+        "item2 item4 item5"
+        "item6 item6 item6";
+    gap: 10px;
+    position: absolute;
+    bottom: 74px;
+    right: 250px;
+}
+
+.item1 {
+    grid-area: item1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    background: #E5D7BB;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+    background: #E5D7BB;
+}
+
+.item4 {
+    grid-area: item4;
+    background: #E5D7BB;
+}
+
+.item5 {
+    grid-area: item5;
+    background: #E5D7BB;
+}
+
+.item6 {
+    grid-area: item6;
+    display: flex;
+    gap: 10px;
+}
+
+.item7 {
+    background: #E5D7BB;
+    height: 100%;
+    width: calc(100% - 50%);
+    background-image: url('../../assets/images/hitec/grid/child.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    padding-top: 95px;
+    padding-left: 20px;
+}
+
+.item8 {
+    background: #E5D7BB;
+    height: 100%;
+    width: calc(100% - 50%);
+    background-image: url('../../assets/images/hitec/grid/cars.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    padding-top: 106px;
+    padding-left: 20px;
+}
+
+.item_title8 {
+    max-width: 274px;
+}
+
+.item_title5 {
+    max-width: 138px;
+}
+
+.item {
+    position: relative;
+}
+
+.most {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.item_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3C;
+    position: relative;
+    z-index: 2;
+}
+
+.item_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3C;
+    text-align: center;
+}
+
+.item_title1 {
+    max-width: 239px;
+}
+
+.item_title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.item_subtitle2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #7AA9AA;
+}
+
+.item2 {
+    background: #0B5455;
+    background-image: url('../../assets/images/hitec/grid/house.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-top: 26px;
+}
+
+.item5 {
+    background-image: url('../../assets/images/hitec/grid/lamp.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 180px;
+    padding-left: 20px;
+}
+
+.trees {
+    margin-left: 30px;
+}
+
+.item_title3 {
+    text-align: center;
+}
+
+.item_title4 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.listva {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}

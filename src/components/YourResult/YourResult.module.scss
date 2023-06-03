@@ -1,0 +1,329 @@
+.title {
+    max-width: 600px;
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #013435;
+}
+
+.section {
+    padding-top: 481px;
+    width: 100%;
+    background-image: url('../../assets/images2/yourResult/bg.png');
+    height: 2077px;
+    margin-top: -220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.trubi {
+    position: absolute;
+    top: 750px;
+    right: 772px;
+    z-index: 4;
+}
+
+.stroitel {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 831px;
+}
+
+.otzivi {
+    display: flex;
+    flex-direction: row;
+    gap: 360px;
+    margin-top: 35px;
+}
+
+.title3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #023E3F;
+}
+
+.title_row {
+    display: flex;
+    gap: 546px;
+    margin-top: 60px;
+}
+
+.otric {
+    max-width: 422px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+}
+
+.polozh {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+}
+
+.item {
+    padding: 24px;
+    background: #E5C9A4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    position: relative;
+    z-index: 3;
+}
+
+.item_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3B;
+}
+
+.strong {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #273B3B
+}
+
+.item1 {
+    width: 435.5px;
+}
+
+.item2 {
+    position: relative;
+    width: 374px;
+    margin-left: -20px;
+}
+
+.item3 {
+    width: 339px;
+    margin-left: 80px;
+}
+
+.item4 {
+    width: 362px;
+}
+
+.item5 {
+    width: 367px;
+}
+
+.item6 {
+    width: 365px;
+    margin-left: -40px;
+}
+
+.item7 {
+    background: #0B5455;
+    width: 460px;
+}
+
+.item8 {
+    background: #0B5455;
+    width: 422px;
+    margin-left: 40px;
+}
+
+.item9 {
+    background: #0B5455;
+    width: 422px;
+    margin-left: 140px;
+}
+
+.item10 {
+    background: #0B5455;
+    width: 422px;
+    margin-left: 60px;
+}
+
+.item11 {
+    background: #0B5455;
+    width: 422px;
+    margin-left: 70px;
+}
+
+.item12 {
+    background: #0B5455;
+    width: 422px;
+    margin-left: 20px;
+}
+
+.item_text_white {
+    color: white;
+}
+
+.strong_white {
+    color: white;
+}
+
+.submit_wrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #013435;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 10px;
+    height: 10px;
+}
+
+.submitText {
+    max-width: 222px;
+}
+
+.submit_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #94949A;
+}
+
+.submit_text_underline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #205456;
+    cursor: pointer;
+}
+
+.phonebtn {
+    width: 291px;
+    height: 63px;
+    border-radius: 12.0838px;
+    border: none;
+    cursor: pointer;
+    background: #023E40;
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+
+.bgPhoneCall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22px;
+    right: 62px;
+}
+
+.phoneCallText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.phoneCallMask {
+    position: absolute;
+}
+
+.submit_container {
+    display: flex;
+    font-display: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.form {
+    width: 1115px;
+    height: 209px;
+    background: white;
+    margin-top: 22px;
+    position: relative;
+    z-index: 1;
+}
+
+.fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.form_title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013435;
+    max-width: 415px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 44px;
+}
+
+.input_wrapper {
+    position: relative;
+}
+
+.input {
+    width: 293px;
+    height: 59px;
+    border: 1px solid #BEBEC8;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #75757C;
+    padding-left: 50px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.input_img {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}

@@ -1,0 +1,230 @@
+.section {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 82px;
+}
+
+.dom {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.pole {
+    position: absolute;
+    bottom: -170px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.title {
+    font-family: 'Arina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #013435;
+    max-width: 571px;
+}
+
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #273B3C;
+    max-width: 372px;
+}
+
+.title_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-bottom: 54px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.item {
+    width: 276px;
+    height: 439px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.item_up {
+    width: 100%;
+    position: relative;
+    height: 211px;
+}
+
+.img {
+    height: 211px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.podskazki {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.zalupa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CCA878;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .2s linear;
+
+    &:hover {
+        background: #EACEA9;
+    }
+}
+
+.item_mid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    gap: 16px;
+    background: #EACEA9;
+}
+
+.item_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #40290A;
+}
+
+.item_item_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4D280F;
+}
+
+.item_item_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4D280F;
+}
+
+.item_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.item_item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.item_low {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    height: 61px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s linear;
+    background: #0B5455;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+    &:hover {
+        background: white;
+        color: black;
+    }
+}
+
+.button_watch {
+    background: linear-gradient(175.97deg, rgba(252, 199, 153, 0.2) 3.29%, rgba(197, 140, 90, 0.2) 42.99%), #C58C5A;
+    box-shadow: inset 0px -0.923077px 0px #E9AC76, inset 0px 0.923077px 0px #EAB88D, inset 0px -5.53846px 11.0769px #E0A979;
+    border-radius: 12px;
+    width: 413px;
+    height: 63px;
+    border: none;
+    transition: all .2s linear;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 4px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: 37px;
+
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.02);
+    }
+}
+
+.backgroundBtn {
+    position: relative;
+    width: 351px;
+    z-index: 2;
+}
+
+.backgroundBtn_img {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    z-index: 1;
+}
+
+.zayavka_text {
+    position: relative;
+    z-index: 2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--main-text-l);
+    line-height: 19px;
+    color: var(--font-brown);
+}
